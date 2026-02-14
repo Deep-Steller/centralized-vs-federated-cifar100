@@ -1,0 +1,10 @@
+torch==2.7.0  # Deep learning framework for model training (ResNet18)
+torchvision==0.22.0  # Datasets (CIFAR-100) and model architectures (ResNet18)
+flwr==1.5.0  # Federated learning framework (Flower)
+opacus==1.5.3  # Differential privacy for training (used in privacy_utils.py)
+numpy==1.26.4  # Numerical operations (arrays, math)
+pandas==2.2.2  # Data handling (CSV files for metrics)
+matplotlib==3.9.2  # Plotting (graphs in results/)
+scipy==1.15.2  # Scientific computations (dependency for Opacus)
+psutil==6.1.0  # System resource monitoring (CPU, memory usage)
+

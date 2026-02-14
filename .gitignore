@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Dataset
+data/
+*.tar.gz
+
+# Models / weights
+models/
+*.pth
+
+# Logs
+logs/
+*.log
+
+# Outputs 
+# results/
+# *.png
+# *.csv
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.venv/
+venv/
